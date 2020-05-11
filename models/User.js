@@ -32,5 +32,5 @@ const userSchema = mongoose.Schema({
 })
 // 모델로 감싸준다
 const User = mongoose.model('User', userSchema)
-module.export = { User }
-// module.export = { User } 다른 곳에서도 쓰일 수 있도록
+module.exports = { User }
+// module.exports = { User } 다른 곳에서도 쓰일 수 있도록
